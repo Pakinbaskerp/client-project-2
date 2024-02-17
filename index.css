@@ -1,7 +1,7 @@
 .mnv-logo {
     display: inline-block; /* Ensures the circle only takes up space it needs */
     border-radius: 40%; /* Makes the shape of the circle */
-    border: 2px solid black; /* Border style */
+    border: 2px solid #e7cce7; /* Border style */
     padding: 5px; /* Adjust as needed */
   }
   .mnv-logo a {
@@ -13,7 +13,10 @@
   p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Specify your desired font family */
     font-weight: bold; /* Ensure the text is bold */
-    color: #cb67c4; /* Text color for the strong tags */
+    color: #100f10; /* Text color for the strong tags */
     margin-left: 10px;
     margin-top: 10px; /* Space between icon and text */
+  }
+  .mnv-list-item i {
+    color: #7E82F6; /* Lavender color */
   }
