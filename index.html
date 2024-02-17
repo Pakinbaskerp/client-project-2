@@ -34,7 +34,63 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
- 
+<style>
+    .mnv-logo {
+    display: inline-block; /* Ensures the circle only takes up space it needs */
+    border-radius: 45%; /* Makes the shape of the circle */
+    border: 2px solid #e7cce7; /* Border style */
+    padding: 5px; /* Adjust as needed */
+    padding-top: 15px;
+  }
+  .mnv-logo a {
+    display: inline-block; /* Ensures the link takes up space it needs */
+  }
+  .mnv-logo a:hover i {
+    color: rgb(234, 220, 220); /* Change color on hover */
+  }
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Specify your desired font family */
+    font-weight: bold; /* Ensure the text is bold */
+    color: #100f10; /* Text color for the strong tags */
+    margin-left: 10px;
+    margin-top: 10px; /* Space between icon and text */
+  }
+  .mnv-list-item i {
+    color: #7E82F6; /* Lavender color */
+  }
+  @keyframes changeText {
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.2) rotate(5deg); }
+    50% { transform: scale(1.1) rotate(-5deg); }
+    75% { transform: scale(1.2) rotate(5deg); }
+    100% { transform: scale(1) rotate(0deg); }
+  }
+
+  .magical-text {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    font-size: 36px;
+    color: #ff00ff; /* Magenta color */
+    animation: changeText 5s infinite alternate;
+    transition: color 0.5s ease-in-out;
+  }
+
+  .magical-text:hover {
+    color: #00ffff; /* Cyan color */
+    text-shadow: 0 0 20px #00ffff; /* Adding a glowing effect */
+  }
+
+  .font-style1 {
+    font-family: 'Indie Flower', cursive; /* Handwriting style */
+  }
+
+  .font-style2 {
+    font-family: 'Lobster', cursive; /* Elegant style */
+  }
+  .nav-pills .nav-item .nav-link {
+    background-color: #ffffff; 
+    color: #f578e4; /* Change to the desired text color */
+}
+</style> 
 
 </head>
 <body>
