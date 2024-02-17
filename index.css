@@ -1,8 +1,9 @@
 .mnv-logo {
     display: inline-block; /* Ensures the circle only takes up space it needs */
-    border-radius: 40%; /* Makes the shape of the circle */
+    border-radius: 45%; /* Makes the shape of the circle */
     border: 2px solid #e7cce7; /* Border style */
     padding: 5px; /* Adjust as needed */
+    padding-top: 15px;
   }
   .mnv-logo a {
     display: inline-block; /* Ensures the link takes up space it needs */

@@ -104,8 +104,8 @@ footer .footlinkSec ul li:before{content:"";position: absolute;width:1px;height:
 footer .footlinkSec ul li:last-child:before{width:0px;height:0%;opacity:0;}
 footer .footlinkSec ul li a{font: normal normal normal 12px/12px Poppins;letter-spacing: -0.16px;color: #2D3434;text-decoration: none;display: block;}
 footer .footlinkSec ul.contul{margin: 0 0 10px;}
-footer .footlinkSec ul.contul li:before{background: #EB1E79;}
-footer .footlinkSec ul.contul li a{font: normal normal 600 12px/12px Poppins;letter-spacing: -0.16px;color: #EB1E79;}
+footer .footlinkSec ul.contul li:before{background: #ee85e2;}
+footer .footlinkSec ul.contul li a{font: normal normal 600 12px/12px Poppins;letter-spacing: -0.16px;color: #eb1edd;}
 footer .footlinkSec p{font: normal normal normal 12px/18px Poppins;letter-spacing: -0.16px;color: #2D3434;text-align: center;margin: 10px 0 0;}
 footer .footlinkSec p a{color: black;text-decoration: none;}
 
