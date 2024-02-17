@@ -19,14 +19,14 @@ body .grecaptcha-badge{opacity:0;}
 .container, .container-sm {max-width: 100%;}
 
 
-.scroll-up header{-webkit-transform: translate3d(0, 0%, 0);-ms-transform: translate3d(0, 0%, 0);transform: translate3d(0, 0%, 0);}
-.scroll-down header{-webkit-transform: translate3d(0, -100%, 0);transform: translate3d(0, -100%, 0);}
-.sscroll-animi  header{box-shadow: 0 0 10px 1px rgb(0 0 0 / 7%);}
+.scroll-up  {-webkit-transform: translate3d(0, 0%, 0);-ms-transform: translate3d(0, 0%, 0);transform: translate3d(0, 0%, 0);}
+.scroll-down  {-webkit-transform: translate3d(0, -100%, 0);transform: translate3d(0, -100%, 0);}
+.sscroll-animi   {box-shadow: 0 0 10px 1px rgb(0 0 0 / 7%);}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif;}
 hr{margin:0;}
 img{width:100%;    border-radius: 5px;}
-header{position: fixed;top:0;z-index: 99;width: 100%;-webkit-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;background:#EB1E79;padding:3px 0 10px 0;}
+ {position: fixed;top:0;z-index: 99;width: 100%;-webkit-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;background:#EB1E79;padding:3px 0 10px 0;}
 
 .rupeestyle{font-family: 'Roboto', sans-serif;}
 .pageBodySec{margin-top: 104px;}
@@ -343,10 +343,10 @@ figure .imgcontain img:hover {-webkit-transform: scale(1.15);-ms-transform: scal
     left: 0;
     right: 0;
     object-fit: cover;}
-.homeSecfive .secheader{position: absolute;top: 50%;left: 50%;text-align: center;width: 100%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
-.homeSecfive .secheader h2{font: normal normal bold 30px/28px Poppins;letter-spacing: 0px;color: #000000;text-transform: uppercase;}
-.homeSecfive .secheader h2 small{display: block;font: normal normal 600 12px/20px Poppins;letter-spacing: 0px;color: #000000;}
-.homeSecfive .secheader p{font: normal normal normal 12px/18px Poppins;letter-spacing: -0.16px;color: #2D3434;margin: 0 0 5px;}
+.homeSecfive .sec {position: absolute;top: 50%;left: 50%;text-align: center;width: 100%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.homeSecfive .sec  h2{font: normal normal bold 30px/28px Poppins;letter-spacing: 0px;color: #000000;text-transform: uppercase;}
+.homeSecfive .sec  h2 small{display: block;font: normal normal 600 12px/20px Poppins;letter-spacing: 0px;color: #000000;}
+.homeSecfive .sec  p{font: normal normal normal 12px/18px Poppins;letter-spacing: -0.16px;color: #2D3434;margin: 0 0 5px;}
 
 .homeSecSix{padding:0px 0;}
 .homeSecSix .hometservice{padding:20px 0 0;}
@@ -366,16 +366,16 @@ figure .imgcontain img:hover {-webkit-transform: scale(1.15);-ms-transform: scal
     right: 0;
     object-fit: cover;}
 /* .homeSecSeven .carousel-item .carouselimg:after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;background:var(--img-shadow-layer) no-repeat center center;background-size:cover;} */
-.homeSecSeven .secheader{}
-.homeSecSeven .secheader h3{font: normal normal bold 40px/40px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
-.homeSecSeven .secheader h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
-.homeSecSeven .secheader p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
-.homeSecSeven .secheader a{}
+.homeSecSeven .sec {}
+.homeSecSeven .sec  h3{font: normal normal bold 40px/40px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
+.homeSecSeven .sec  h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
+.homeSecSeven .sec  p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
+.homeSecSeven .sec  a{}
 
 
-.venuehomeSecSeven .secheader h3{font: normal normal bold 50px/55px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
-.venuehomeSecSeven .secheader h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
-.venuehomeSecSeven .secheader p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
+.venuehomeSecSeven .sec  h3{font: normal normal bold 50px/55px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
+.venuehomeSecSeven .sec  h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
+.venuehomeSecSeven .sec  p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
 
 .venuehomeSecSeven .carousel-item .carousel-caption {
     width: 100%;
@@ -403,12 +403,12 @@ figure .imgcontain img:hover {-webkit-transform: scale(1.15);-ms-transform: scal
 
 .homeSecTen{padding:0px 0;}
 .homeSecTen .homeslidThree{padding:0px 0;}
-.homeSecTen .secheader {position: absolute;bottom: 30px;left: 50%;text-align: center;width: 100%;-webkit-transform: translate(-50%, 0%);-ms-transform: translate(-50%, 0%);transform: translate(-50%, 0%);z-index: 9;}
-.homeSecTen .secheader h3{font: normal normal bold 40px/46px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
-.homeSecTen .secheader h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin:5px 0 3px;}
-.homeSecTen .secheader h2{font: normal normal bold 35px/35px Poppins;letter-spacing: -0.7px;color: #FFFFFF;text-transform: uppercase;margin: 0 0 6px;}
-.homeSecTen .secheader p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
-.homeSecTen .secheader a{}
+.homeSecTen .sec  {position: absolute;bottom: 30px;left: 50%;text-align: center;width: 100%;-webkit-transform: translate(-50%, 0%);-ms-transform: translate(-50%, 0%);transform: translate(-50%, 0%);z-index: 9;}
+.homeSecTen .sec  h3{font: normal normal bold 40px/46px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
+.homeSecTen .sec  h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin:5px 0 3px;}
+.homeSecTen .sec  h2{font: normal normal bold 35px/35px Poppins;letter-spacing: -0.7px;color: #FFFFFF;text-transform: uppercase;margin: 0 0 6px;}
+.homeSecTen .sec  p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
+.homeSecTen .sec  a{}
 
 .homeSecEleven{}
 .hselevenbg{background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 3px 6px #00000029;border-radius: 5px;padding:25px 0px;position:relative;}
@@ -854,11 +854,11 @@ ul.foodservicelist li a figure figcaption h4{font: normal normal 600 13px/17px P
 .commoncarousel .carousel-item .carousel-caption{width: 100%;left: 0;right: 0;}
 .commoncarousel .carousel-item .carouselimg {overflow: hidden;width: 100%;position: relative;}
 .commoncarousel .carousel-item .carouselimg:after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;background:var(--img-shadow-layer) no-repeat center center;background-size:cover;}
-.commoncarousel .secheader{}
-.commoncarousel .secheader h3{font: normal normal bold 40px/40px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
-.commoncarousel .secheader h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
-.commoncarousel .secheader p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
-.commoncarousel .secheader a{}
+.commoncarousel .sec {}
+.commoncarousel .sec  h3{font: normal normal bold 40px/40px Dancing Script;letter-spacing: 0px;color: #FFFFFF;margin: 0 0 5px;}
+.commoncarousel .sec  h5{font: normal normal 600 16px/26px Poppins;letter-spacing: 0px;color: #FFFFFF;text-transform: uppercase;margin: 0;}
+.commoncarousel .sec  p{font: normal normal normal 13px/20px Poppins;letter-spacing: -0.17px;color: #FFFFFF;margin-bottom: 5px;}
+.commoncarousel .sec  a{}
 
 .sibadecList.WishList .sibadecitem{position: relative;  -webkit-box-flex: 0;-ms-flex: 0 0 calc(50% - 5px);flex: 0 0 calc(50% - 5px);margin:2px;margin-top: 6px;padding: 5px;background: #fff;border-radius: 5px;box-shadow: 0 0 5px #d7d7d7;}
 
@@ -2482,7 +2482,7 @@ body select.form-control {
 .faq-section {
     padding: 15px 0;
 }
-.faq-section .secheader h2.sec_head {
+.faq-section .sec  h2.sec_head {
     font-size: 25px;
     font-weight: 600;
     color: #000000;
@@ -2492,7 +2492,7 @@ body select.form-control {
 
 
 /* faq */
-.faq-section .secheader {
+.faq-section .sec  {
     margin: 0 0 35px;
     text-align: center;
 }
@@ -2622,12 +2622,12 @@ body select.form-control {
     -ms-flex: 0 0 60%;
     flex: 0 0 60%;
 }
-.aboutintro-confuld .secheader {
+.aboutintro-confuld .sec  {
     margin: 0;
     text-align: left;
     padding: 0 50px;
 }
-.aboutintro-confuld .secheader h5 {
+.aboutintro-confuld .sec  h5 {
     color: #eb1e79;
     text-transform: uppercase;
     font-weight: 700;
@@ -2640,7 +2640,7 @@ body select.form-control {
     margin: 0 0 8px;
     letter-spacing: -1px;
 }
-.aboutintro-confuld .secheader p {
+.aboutintro-confuld .sec  p {
     line-height: 1.5;
     font-size: 13px;
     color: black;
@@ -2662,23 +2662,23 @@ body select.form-control {
     -ms-flex: 0 0 60%;
     flex: 0 0 60%;
 }
-.whyhomevents-confuld .secheader {
+.whyhomevents-confuld .sec  {
     margin: 0;
     text-align: left;
     padding: 0 50px 0 65px;
 }
-.howwework .whyhomevents-confuld .secheader h5 {
+.howwework .whyhomevents-confuld .sec  h5 {
     color: #eb1e79;
     font-weight: 700;
     font-size: 16px;
 }
-.howwework .whyhomevents-confuld .secheader h2.sec_head {
+.howwework .whyhomevents-confuld .sec  h2.sec_head {
     font-weight: 600;
     color: #000000;
     margin: 0 0 8px;
     font-size: 20px;
 }
-.howwework .whyhomevents-confuld .whyh-left .secheader p {
+.howwework .whyhomevents-confuld .whyh-left .sec  p {
     font-size: 13px;
 }
 .whyhomevents-confuld .whyh-right a:after {
@@ -2825,14 +2825,14 @@ body select.form-control {
 .aboutcorevalues {
     padding: 30px 0;
 }
-.aboutcorevalues .secheader h2.sec_head {
+.aboutcorevalues .sec  h2.sec_head {
     color: #18c0d1;
     font-size: 20px;
 }
-.aboutcorevalues .secheader p{
+.aboutcorevalues .sec  p{
     font-size: 13px;
 }
-.aboutcorevalues .secheader {
+.aboutcorevalues .sec  {
     margin: 0 0 40px;
     text-align: center;
 
@@ -3365,7 +3365,7 @@ body select.form-control {
 .giftoccas-lists .giftoccas-cont p{color: #242424;margin: 0;}
 .giftoccas-lists .giftoccas-cont h6 strong {color: #eb1e79;}
 .giftoccas-lists .giftoccas-cont h6 strong span{font-family: 'Roboto', sans-serif;}
-.secheader .comhead {
+.sec  .comhead {
     font-size: 27px;
     margin: 0 0 38px;
 }
@@ -3411,21 +3411,21 @@ table.table.table-bordered.table-two {
 .table>tbody {
     vertical-align: middle;
 }
-.vendor .secheader h2.sec_head {
+.vendor .sec  h2.sec_head {
     font-size: 30px;
     font-weight: 600;
     color: #000000;
     margin: 0 0 15px;
     letter-spacing: -1px;
 }
-.vendor .secheader{
+.vendor .sec {
     text-align: center;
 }
-.vendor .secheader h2.sec_head span {
+.vendor .sec  h2.sec_head span {
     color: #18c0d1;
     font-weight: bold;
 }
-.vendor .secheader  p{
+.vendor .sec   p{
     font-size: 13px;
 }
 .vendor_filter .vendorfil_form .form-group {
@@ -4006,7 +4006,7 @@ input#checkb {
     margin-bottom: 0.5rem !important;
 
 }
-.channel-partner .faq-section .secheader {
+.channel-partner .faq-section .sec  {
     text-align: unset;
 }
 /* .channel-partner p {
@@ -4079,7 +4079,7 @@ input#checkb {
 .channel-partner .faq-section .accordion--content {
     font-size: 13px;
 }
-.channel-partner .secheader.animated.fadeInDown {
+.channel-partner .sec .animated.fadeInDown {
     margin-bottom: 20px;
 }
 .channel-partner div#faqaccordion {
@@ -4160,10 +4160,10 @@ input#checkb {
     .aboutintro {
         padding: 20px 0 40px;
     }
-    .aboutintro-confuld .secheader h5 {
+    .aboutintro-confuld .sec  h5 {
         font-size: 23px;
     }
-    .howwework .whyhomevents-confuld .secheader h5 {
+    .howwework .whyhomevents-confuld .sec  h5 {
         font-size: 23px;
     }
     .citemt .citemt-ri {
@@ -4203,7 +4203,7 @@ input#checkb {
         margin: 0 auto;
         margin-top: 25px;
     }    
-    .aboutintro-confuld .secheader {
+    .aboutintro-confuld .sec  {
         text-align: center;
         padding: 0 20px;
     }
@@ -4214,7 +4214,7 @@ input#checkb {
         align-items: center;
         flex-direction: column;
     }
-    .whyhomevents-confuld .secheader {
+    .whyhomevents-confuld .sec  {
         text-align: center;
         padding: 0 20px;
     }
@@ -4222,7 +4222,7 @@ input#checkb {
         width: 80%;
         margin-top: 25px;
     }
-    .aboutintro-confuld .secheader p {
+    .aboutintro-confuld .sec  p {
         line-height: 1.5;
         font-size: 14px;
     }
@@ -4768,7 +4768,7 @@ input#checkb {
         line-height: 33px;
         font-size: 13px;
     }
-    .howwework .whyhomevents-confuld .secheader h2.sec_head {
+    .howwework .whyhomevents-confuld .sec  h2.sec_head {
         font-size: 16px;
     }
     .aboutintro-confuld .aboutintro-right h2 {
@@ -4854,7 +4854,7 @@ input#checkb {
 	.hometservice li{padding: 4px;}
 	.hometservice li a figure figcaption{font: normal normal 600 11px/18px Poppins;}
 	.homeSecfour .homedecbyocc li{padding: 4px;}
-	.homeSecfive .secheader h2{font-size: 22px;line-height: 22px;}
+	.homeSecfive .sec  h2{font-size: 22px;line-height: 22px;}
 	.homeSecfive .homesfiveul li figure figcaption{font-size:11px;}
 	.login_section .login_conarea h2 {font-size: 30px;}
 	.login_section .login_conarea h2 small {font-size: 16px;}
@@ -4882,11 +4882,11 @@ input#checkb {
 	.homeSecThree .carousel-caption h2 strong{font-size:15px;line-height:25px;}
 	.homeSecfour .homedecbyocc li a figure figcaption h4{font-size:12px;}
 	.homeslidThree li{-webkit-box-flex: 1;-ms-flex: 1 0 310px;flex: 1 0 310px;}
-	.homeSecSeven .secheader h3{font-size:31px;line-height:31px;}
-	.homeSecSeven .secheader h5{font-size:13px;}
-	.homeSecTen .secheader h3{font-size:34px;line-height:38px;}
-	.homeSecTen .secheader h5{font-size:14px;line-height:22px;}
-	.homeSecTen .secheader h2{font-size:30px;line-height:30px;}
+	.homeSecSeven .sec  h3{font-size:31px;line-height:31px;}
+	.homeSecSeven .sec  h5{font-size:13px;}
+	.homeSecTen .sec  h3{font-size:34px;line-height:38px;}
+	.homeSecTen .sec  h5{font-size:14px;line-height:22px;}
+	.homeSecTen .sec  h2{font-size:30px;line-height:30px;}
 	.homeslidTwo li a figure figcaption h4{font-size: 13px;line-height: 15px;}
 	.homeslidTwo li a figure figcaption p{font-size:11px;}
 	.homeSecTwelve .hstwelve-caption h3{font-size:30px;line-height:30px;}
@@ -4896,8 +4896,8 @@ input#checkb {
 	ul.homegaocc li {-webkit-box-flex: 0;-ms-flex: 0 0 calc(50% - 10px);flex: 0 0 calc(50% - 10px);}
 	.homeSecTwelve .hstwelve-caption p br{display:none;}
 	
-	.commoncarousel .secheader h3{font-size: 31px;line-height: 31px;}
-	.commoncarousel .secheader h5{font-size:13px;} 
+	.commoncarousel .sec  h3{font-size: 31px;line-height: 31px;}
+	.commoncarousel .sec  h5{font-size:13px;} 
 	ul.servicelist li a figure figcaption h4{font-size:12px;}
 	.Homeventslider ul{padding: 0 0px;}
 	.Homeventslider ul li{margin-right: 8px;}
@@ -5006,7 +5006,7 @@ input#checkb {
         opacity: 0;
         visibility: hidden;
     }
-    .aboutcorevalues .secheader p {
+    .aboutcorevalues .sec  p {
         font-size: 15px;
     }
     .aboutcorevalues .corevalue-lbox p {
@@ -5266,17 +5266,17 @@ input#checkb {
         height: 30px;
         left: 54%;
     }
-    .howwework .whyhomevents-confuld .secheader h2.sec_head {
+    .howwework .whyhomevents-confuld .sec  h2.sec_head {
         font-size: 15px;
     }
     .aboutintro-confuld .aboutintro-right h2 {
         font-size: 15px;
     }
     
-    .aboutintro-confuld .secheader p {
+    .aboutintro-confuld .sec  p {
         font-size: 12px;
     }
-    .howwework .whyhomevents-confuld .whyh-left .secheader p {
+    .howwework .whyhomevents-confuld .whyh-left .sec  p {
         font-size: 12px;
     }
     .accordion-container .accordion-title {

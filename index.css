@@ -21,3 +21,35 @@
   .mnv-list-item i {
     color: #7E82F6; /* Lavender color */
   }
+  @keyframes changeText {
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.2) rotate(5deg); }
+    50% { transform: scale(1.1) rotate(-5deg); }
+    75% { transform: scale(1.2) rotate(5deg); }
+    100% { transform: scale(1) rotate(0deg); }
+  }
+
+  .magical-text {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    font-size: 36px;
+    color: #ff00ff; /* Magenta color */
+    animation: changeText 5s infinite alternate;
+    transition: color 0.5s ease-in-out;
+  }
+
+  .magical-text:hover {
+    color: #00ffff; /* Cyan color */
+    text-shadow: 0 0 20px #00ffff; /* Adding a glowing effect */
+  }
+
+  .font-style1 {
+    font-family: 'Indie Flower', cursive; /* Handwriting style */
+  }
+
+  .font-style2 {
+    font-family: 'Lobster', cursive; /* Elegant style */
+  }
+  .nav-pills .nav-item .nav-link {
+    background-color: #ffffff; 
+    color: #f578e4; /* Change to the desired text color */
+}
